@@ -1,0 +1,23 @@
+
+std::string std::string::getName()
+{
+	return this->name;
+}
+
+void std::string::setName(std::string name)
+{
+	this->name = name;
+}
+
+
+int Animal::getQwerty()
+{
+	return this->qwerty;
+}
+
+void Animal::setQwerty(int qwerty)
+{
+	this->qwerty = qwerty;
+}
+
+not registred

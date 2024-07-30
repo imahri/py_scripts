@@ -1,0 +1,22 @@
+
+std::string robot::getName(int index)
+{
+	return name[index];
+}
+
+void robot::setName(std::string name)
+{
+	this->name[index] = name;
+}
+
+
+int robot::getAge()
+{
+	return age;
+}
+
+void robot::setAge(int age)
+{
+	this->age = age;
+}
+
